@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 export default function Player() {
+
   const input = useRef(null);
   const [name, setName] = useState(null);
   function onSubmit() {
